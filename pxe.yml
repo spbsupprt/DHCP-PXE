@@ -45,7 +45,7 @@
       
   - name: copy /etc/dnsmasq.d/pxe.conf
     template:
-      src: pxe.conf.j2
+      src: templates/pxe.conf.j2
       dest: /etc/dnsmasq.d/pxe.conf
       owner: root
       group: root
@@ -95,7 +95,7 @@
 
   - name: copy /srv/ks/user-data
     template:
-      src: user-data.j2
+      src: templates/user-data.j2
       dest: /srv/ks/user-data
       owner: root
       group: root
@@ -115,7 +115,7 @@
 
   - name: copy /etc/apache2/sites-available/ks-server.conf
     template:
-      src: ks-server.conf.j2
+      src: templates/ks-server.conf.j2
       dest: /etc/apache2/sites-available/ks-server.conf
       owner: root
       group: root
@@ -123,7 +123,7 @@
 
   - name: copy /srv/tftp/amd64/pxelinux.cfg/default
     template:
-      src: default.j2
+      src: templates/default.j2
       dest: /srv/tftp/amd64/pxelinux.cfg/default
       owner: root
       group: root
