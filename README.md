@@ -15,3 +15,4 @@
 
 Применяем плейбук https://github.com/spbsupprt/DHCP-PXE/blob/main/pxe.yml
 
+![image](https://github.com/user-attachments/assets/8455ef96-d3dc-450a-9673-d5db635a653a)
