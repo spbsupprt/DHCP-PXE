@@ -1,4 +1,8 @@
 ---
+- hosts: all
+  become: true
+  tasks:
+
   - name: Check if UFW is installed
     command: dpkg-query -W ufw
     register: ufw_check
