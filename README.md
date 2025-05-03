@@ -1,2 +1,2 @@
-# DHCP-PXE-
+# DHCP,PXE
 DHCP, PXE 
